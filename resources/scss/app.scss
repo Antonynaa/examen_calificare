@@ -1,3 +1,30 @@
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 // CSS pentru index.blade.php || Frontend
+.navbar-custom {
+    background-color: rgba(0, 0, 139, 0.7); /* culoare albastru inchis transparent */
+    border-radius: 10px; /* colturi rotunjite */
+    position: absolute;
+    top: 20px; /* distanta de sus */
+    width: 100%;
+    text-align: center; /* centrat text */
+}
+
+.navbar-custom .navbar-toggler {
+    color: white; /* culoare text alb pentru toggler */
+    border-color: white; /* culoare border alb pentru toggler */
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-color: white; /* culoare background alb pentru icon-ul de toggler */
+}
+
+.navbar-custom .navbar-nav {
+    justify-content: flex-end; /* aliniere la dreapta pentru link-uri */
+}
+
+.navbar-custom .nav-link {
+    color: white; /* culoare text alb pentru link-uri */
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* spatiere intre link-uri */
+}
